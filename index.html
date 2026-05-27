@@ -1,0 +1,1703 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>—Designer & Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div id="loader">
+      <div class="ld-logo" data-text="DIVYANSHI SINGH">DIVYANSHI SINGH</div>
+      <div class="ld-line"></div>
+    </div>
+
+    <!-- CURSOR -->
+    <div id="cur"></div>
+    <div id="cur-ring"></div>
+
+    <!-- SCROLL PROGRESS -->
+    <div id="sp"></div>
+
+    <!-- BG -->
+    <div id="bg">
+      <div class="mesh-layer">
+        <div class="aurora aurora1"></div>
+        <div class="aurora aurora2"></div>
+        <div class="aurora aurora3"></div>
+        <div class="aurora aurora4"></div>
+      </div>
+      <div class="bg-grid"></div>
+      <div class="bg-noise"></div>
+      <div id="mouse-glow"></div>
+    </div>
+
+    <!-- NAV -->
+    <nav id="navbar">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo"
+          ><span class="nav-logo-text">divyanshi</span
+          ><span class="nav-logo-dot">.</span
+          ><span class="nav-logo-text">singh</span></a
+        >
+        <ul class="nav-links">
+          <li><a href="#about" class="nl">About</a></li>
+          <li><a href="#skills" class="nl">Skills</a></li>
+          <li><a href="#services" class="nl">Services</a></li>
+          <li><a href="#projects" class="nl">Work</a></li>
+          <li><a href="#experience" class="nl">Journey</a></li>
+          <li><a href="#contact" class="nl">Contact</a></li>
+        </ul>
+        <a href="#contact" class="nav-pill">Hire Me</a>
+        <button class="hamburger" id="ham" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="mob-menu" id="mobMenu">
+      <a href="#about" class="mob-lnk">About</a>
+      <a href="#skills" class="mob-lnk">Skills</a>
+      <a href="#services" class="mob-lnk">Services</a>
+      <a href="#projects" class="mob-lnk">Work</a>
+      <a href="#experience" class="mob-lnk">Journey</a>
+      <a href="#contact" class="mob-lnk">Contact</a>
+    </div>
+
+    <!-- ═══ HERO ═══ -->
+    <section id="hero">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <div class="hero-eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span class="eyebrow-text">Available for work</span>
+            <span
+              class="eyebrow-dot"
+              style="
+                background: var(--purple);
+                box-shadow: 0 0 10px var(--purple);
+              "
+            ></span>
+          </div>
+          <h1 class="hero-name">
+            <span class="hero-name-line1">Hello, I'm</span>
+            <span class="hero-name-line2"><span>Divyanshi Singh</span></span>
+          </h1>
+          <div class="hero-role-wrap">
+            <span class="role-prefix">I craft</span>&nbsp;<span
+              class="role-typed"
+              id="typed"
+            ></span
+            ><span class="role-cursor">|</span>
+          </div>
+          <p class="hero-bio">
+            A passionate <strong>Full Stack Developer</strong> crafting
+            futuristic, animated and immersive digital experiences with modern
+            UI, smooth interactions and cinematic web design.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn-cta">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013 4.18 2 2 0 015.18 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L9.91 9.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"
+                />
+              </svg>
+              Hire Me
+            </a>
+            <a href="#" class="btn-outline">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"
+                />
+              </svg>
+              Download Resume
+            </a>
+          </div>
+          <div class="hero-socials">
+            <!-- GitHub -->
+            <a href="#" class="soc-btn" aria-label="GitHub"
+              ><svg viewBox="0 0 24 24">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                /></svg
+            ></a>
+            <!-- LinkedIn -->
+            <a href="#" class="soc-btn" aria-label="LinkedIn"
+              ><svg viewBox="0 0 24 24">
+                <path
+                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <circle
+                  cx="4"
+                  cy="4"
+                  r="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-width="2"
+                /></svg
+            ></a>
+            <!-- Twitter/X -->
+            <a href="#" class="soc-btn" aria-label="Twitter"
+              ><svg viewBox="0 0 24 24">
+                <path
+                  d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                /></svg
+            ></a>
+            <!-- Dribbble -->
+            <a href="#" class="soc-btn" aria-label="Dribbble"
+              ><svg viewBox="0 0 24 24">
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-width="2"
+                />
+                <path
+                  d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                /></svg
+            ></a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="float-badge fb1">
+            <div class="fb-dot"></div>
+            <span>Creative developer</span>
+          </div>
+          <div class="float-badge fb2">
+            <div class="fb-dot purple"></div>
+            <span>4+ Projects</span>
+          </div>
+          <div class="float-badge fb3">
+            <div class="fb-dot green"></div>
+            <span>Open to Work</span>
+          </div>
+          <div class="hero-portrait-wrap">
+            <div class="portrait-dots"></div>
+            <div class="portrait-ring2"></div>
+            <div class="portrait-ring"></div>
+            <div class="portrait-inner">
+          
+  <img src="img.jpg" alt="Divyanshi Singh" class="profile-pic" />
+</div>
+</div>
+          </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══ ABOUT ═══ -->
+    <section id="about" class="section-pad">
+      <div class="container">
+        <div class="about-grid">
+          <div class="reveal-l">
+            <div class="about-card gcard">
+              <div class="about-corner ac-tl"></div>
+              <div class="about-corner ac-tr"></div>
+              <div class="about-corner ac-bl"></div>
+              <div class="about-corner ac-br"></div>
+              <div class="about-card-inner">
+                <div class="about-ring-anim">
+                  <div class="about-center-icon">
+                    <svg
+                      viewBox="0 0 70 70"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="35"
+                        cy="35"
+                        r="28"
+                        fill="rgba(0,212,255,0.05)"
+                        stroke="rgba(0,212,255,0.15)"
+                        stroke-width="1"
+                      />
+                      <!-- Code icon in center -->
+                      <path
+                        d="M22 28L14 35L22 42"
+                        stroke="rgba(0,212,255,0.7)"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                      />
+                      <path
+                        d="M48 28L56 35L48 42"
+                        stroke="rgba(0,212,255,0.7)"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                      />
+                      <path
+                        d="M41 22L29 48"
+                        stroke="rgba(124,58,237,0.6)"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        fill="none"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="about-card-lines">
+                  <div class="about-card-line"></div>
+                  <div class="about-card-line" style="opacity: 0.35"></div>
+                  <div class="about-card-line" style="opacity: 0.2"></div>
+                </div>
+                <div style="text-align: center; padding: 0 1.5rem 1.5rem">
+                  <div
+                    style="
+                      font-family: var(--font2);
+                      font-size: 1.3rem;
+                      font-weight: 700;
+                      color: var(--text);
+                    "
+                  >
+                    Divyanshi Singh
+                  </div>
+                  <div
+                    style="
+                      font-size: 0.82rem;
+                      color: var(--muted);
+                      margin-top: 0.3rem;
+                    "
+                  >
+                    Full-Stack Developer &amp; Creative Designer
+                  </div>
+                  <div
+                    style="
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      gap: 0.4rem;
+                      margin-top: 0.8rem;
+                    "
+                  >
+                    <div
+                      style="
+                        width: 6px;
+                        height: 6px;
+                        border-radius: 50%;
+                        background: #22c55e;
+                        box-shadow: 0 0 8px #22c55e;
+                      "
+                    ></div>
+                    <span
+                      style="
+                        font-size: 0.75rem;
+                        color: #22c55e;
+                        font-weight: 600;
+                      "
+                      >Available for projects</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="stats-bar stagger">
+              <div class="stat-box gcard">
+                <div class="stat-n" data-c="5">0</div>
+                <div class="stat-l">Projects Built</div>
+              </div>
+              <div class="stat-box gcard">
+                <div class="stat-n" data-c="120">0</div>
+                <div class="stat-l">Core Skills</div>
+              </div>
+              <div class="stat-box gcard">
+                <div class="stat-n" data-c="48">0</div>
+                <div class="stat-l">Creative Ideas</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-text reveal-r">
+            <div>
+              <div class="s-label">
+                <span class="s-label-line"></span
+                ><span class="s-label-text">About Me</span>
+              </div>
+              <h2 class="s-title">
+                Crafting Digital<br /><em>Experiences</em>
+              </h2>
+            </div>
+            <p class="about-bio">
+              Hi! I'm <strong>Divyanshi Singh</strong>, a passionate full stack
+              developer who loves creating futuristic, animated and immersive
+              web experiences with modern UI design and smooth interactions.
+            </p>
+
+            <p class="about-bio">
+              I enjoy building <strong>animated portfolios</strong>,
+              <strong>modern ecommerce websites</strong> and interactive web
+              applications using
+              <strong>HTML, CSS, JavaScript and React</strong>. My focus is on
+              creating visually stunning and user-friendly digital experiences.
+            </p>
+            <div class="tag-list">
+              <span class="tag"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+                  />
+                </svg>
+                <html></html
+              ></span>
+              <span class="tag"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"
+                  /></svg
+                >CSS3</span
+              >
+              <span class="tag"
+                ><svg viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10" />
+                  <path
+                    d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"
+                  /></svg
+                >JavaScript</span
+              >
+              <span class="tag"
+                ><svg viewBox="0 0 24 24">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                  <polyline points="2 17 12 22 22 17" />
+                  <polyline points="2 12 12 17 22 12" /></svg
+                >React.js</span
+              >
+              <span class="tag"
+                ><svg viewBox="0 0 24 24">
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <path d="M3 9h18M9 21V9" /></svg
+                >Responsive UI</span
+              >
+              <span class="tag"
+                ><svg viewBox="0 0 24 24">
+                  <path d="M18 20V10M12 20V4M6 20v-6" /></svg
+                >Modern Animation</span
+              >
+            </div>
+            <a href="#contact" class="btn-cta" style="align-self: flex-start">
+              <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+              Let's Connect
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══ SKILLS ═══ -->
+    <section id="skills" class="section-pad">
+      <div class="container">
+        <div
+          class="section-header reveal"
+          style="text-align: center; margin-bottom: 3.5rem"
+        >
+          <div class="s-label" style="justify-content: center">
+            <span class="s-label-line"></span>
+            <span class="s-label-text">Expertise</span>
+            <span
+              class="s-label-line"
+              style="
+                background: linear-gradient(270deg, var(--cyan), transparent);
+              "
+            ></span>
+          </div>
+
+          <h2 class="s-title" style="text-align: center">My <em>Skills</em></h2>
+
+          <p class="s-sub" style="margin: 0 auto; text-align: center">
+            Technologies and creative tools I use to build modern, animated and
+            immersive web experiences.
+          </p>
+        </div>
+
+        <div class="skills-grid stagger">
+          <!-- HTML -->
+          <div class="sk-card gcard">
+            <div class="sk-head">
+              <div class="sk-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="var(--cyan)"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                </svg>
+              </div>
+
+              <div class="sk-name">HTML5</div>
+            </div>
+
+            <div class="sk-bar-wrap">
+              <div class="sk-bar" data-w="90"></div>
+            </div>
+
+            <div class="sk-pct">90% proficiency</div>
+          </div>
+
+          <!-- CSS -->
+          <div class="sk-card gcard">
+            <div class="sk-head">
+              <div class="sk-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="var(--blue)"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                >
+                  <path d="M12 20h9" />
+                </svg>
+              </div>
+
+              <div class="sk-name">CSS3</div>
+            </div>
+
+            <div class="sk-bar-wrap">
+              <div class="sk-bar" data-w="85"></div>
+            </div>
+
+            <div class="sk-pct">85% proficiency</div>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="sk-card gcard">
+            <div class="sk-head">
+              <div class="sk-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="var(--purple)"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                >
+                  <polyline points="16 18 22 12 16 6" />
+                  <polyline points="8 6 2 12 8 18" />
+                </svg>
+              </div>
+
+              <div class="sk-name">JavaScript</div>
+            </div>
+
+            <div class="sk-bar-wrap">
+              <div class="sk-bar" data-w="80"></div>
+            </div>
+
+            <div class="sk-pct">80% proficiency</div>
+          </div>
+
+          <!-- React -->
+          <div class="sk-card gcard">
+            <div class="sk-head">
+              <div class="sk-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#22c55e"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                >
+                  <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+                </svg>
+              </div>
+
+              <div class="sk-name">React.js</div>
+            </div>
+
+            <div class="sk-bar-wrap">
+              <div class="sk-bar" data-w="75"></div>
+            </div>
+
+            <div class="sk-pct">75% proficiency</div>
+          </div>
+
+          <!-- Responsive -->
+          <div class="sk-card gcard">
+            <div class="sk-head">
+              <div class="sk-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#f59e0b"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                >
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                  />
+                </svg>
+              </div>
+
+              <div class="sk-name">Responsive Design</div>
+            </div>
+
+            <div class="sk-bar-wrap">
+              <div class="sk-bar" data-w="88"></div>
+            </div>
+
+            <div class="sk-pct">88% proficiency</div>
+          </div>
+
+          <!-- Animations -->
+          <div class="sk-card gcard">
+            <div class="sk-head">
+              <div class="sk-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="var(--pink)"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                >
+                  <path
+                    d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"
+                  />
+                </svg>
+              </div>
+
+              <div class="sk-name">Modern Animations</div>
+            </div>
+
+            <div class="sk-bar-wrap">
+              <div class="sk-bar" data-w="82"></div>
+            </div>
+
+            <div class="sk-pct">82% proficiency</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ═══ SERVICES ═══ -->
+   <!-- ═══ SERVICES ═══ -->
+<section id="services" class="section-pad">
+  <div class="container">
+
+    <div
+      class="section-header reveal"
+      style="text-align: center; margin-bottom: 3.5rem"
+    >
+      <div class="s-label" style="justify-content: center">
+        <span class="s-label-line"></span>
+
+        <span class="s-label-text">What I Do</span>
+
+        <span
+          class="s-label-line"
+          style="
+            background: linear-gradient(270deg, var(--cyan), transparent);
+          "
+        ></span>
+      </div>
+
+      <h2 class="s-title" style="text-align: center">
+        My <em>Services</em>
+      </h2>
+    </div>
+
+    <div class="svc-grid stagger">
+
+      <!-- SERVICE 1 -->
+      <div class="svc-card gcard">
+        <div class="svc-icon-wrap">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"
+            />
+          </svg>
+        </div>
+
+        <div class="svc-title">Modern UI Design</div>
+
+        <p class="svc-desc">
+          Creating clean, futuristic and visually stunning interfaces with
+          smooth user experiences and modern design aesthetics.
+        </p>
+      </div>
+
+      <!-- SERVICE 2 -->
+      <div class="svc-card gcard">
+        <div class="svc-icon-wrap">
+          <svg viewBox="0 0 24 24">
+            <polyline points="16 18 22 12 16 6" />
+            <polyline points="8 6 2 12 8 18" />
+          </svg>
+        </div>
+
+        <div class="svc-title">Frontend Development</div>
+
+        <p class="svc-desc">
+          Building responsive and interactive websites using HTML, CSS,
+          JavaScript and React with modern animations and effects.
+        </p>
+      </div>
+
+      <!-- SERVICE 3 -->
+      <div class="svc-card gcard">
+        <div class="svc-icon-wrap">
+          <svg viewBox="0 0 24 24">
+            <rect x="2" y="3" width="20" height="14" rx="2" />
+            <line x1="8" y1="21" x2="16" y2="21" />
+            <line x1="12" y1="17" x2="12" y2="21" />
+          </svg>
+        </div>
+
+        <div class="svc-title">Portfolio Websites</div>
+
+        <p class="svc-desc">
+          Designing premium animated portfolio websites with cinematic layouts,
+          parallax scrolling and immersive modern visuals.
+        </p>
+      </div>
+
+      <!-- SERVICE 4 -->
+      <div class="svc-card gcard">
+        <div class="svc-icon-wrap">
+          <svg viewBox="0 0 24 24">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+          </svg>
+        </div>
+
+        <div class="svc-title">Animations & Effects</div>
+
+        <p class="svc-desc">
+          Adding smooth animations, hover effects, glowing elements and modern
+          interactive experiences to websites.
+        </p>
+      </div>
+
+      <!-- SERVICE 5 -->
+      <div class="svc-card gcard">
+        <div class="svc-icon-wrap">
+          <svg viewBox="0 0 24 24">
+            <rect x="5" y="2" width="14" height="20" rx="2" />
+            <line x1="12" y1="18" x2="12.01" y2="18" />
+          </svg>
+        </div>
+
+        <div class="svc-title">Responsive Design</div>
+
+        <p class="svc-desc">
+          Creating mobile-friendly and fully responsive websites that work
+          beautifully on every screen size and device.
+        </p>
+      </div>
+
+      <!-- SERVICE 6 -->
+      <div class="svc-card gcard">
+        <div class="svc-icon-wrap">
+          <svg viewBox="0 0 24 24">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+          </svg>
+        </div>
+
+        <div class="svc-title">Ecommerce Websites</div>
+
+        <p class="svc-desc">
+          Building stylish ecommerce interfaces with modern layouts, product
+          sections and smooth shopping experiences.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <div class="divider"></div>
+```html
+<section id="projects" class="section-pad">
+  <div class="container">
+    <div class="section-header" style="margin-bottom: 3rem">
+      <div class="s-label reveal">
+        <span class="s-label-line"></span>
+        <span class="s-label-text">Portfolio</span>
+      </div>
+
+      <h2 class="s-title reveal">Featured <em>Projects</em></h2>
+
+      <p class="s-sub reveal">
+        Modern, animated, and immersive web experiences crafted with creativity
+        and clean code.
+      </p>
+    </div>
+
+    <!-- FEATURED PROJECT -->
+    <div class="proj-featured gcard reveal">
+      <div class="pf-visual">
+        <div class="pf-visual-overlay"></div>
+
+        <div class="pf-mockup">
+          <svg width="300" height="190" viewBox="0 0 300 190" fill="none">
+            <rect
+              x="10"
+              y="10"
+              width="280"
+              height="170"
+              rx="10"
+              fill="rgba(0,212,255,0.03)"
+              stroke="rgba(0,212,255,0.1)"
+              stroke-width="1"
+            />
+
+            <rect
+              x="20"
+              y="20"
+              width="140"
+              height="80"
+              rx="6"
+              fill="rgba(0,102,255,0.06)"
+              stroke="rgba(0,102,255,0.15)"
+              stroke-width="1"
+            />
+
+            <circle
+              cx="90"
+              cy="60"
+              r="22"
+              fill="rgba(0,212,255,0.06)"
+              stroke="rgba(0,212,255,0.2)"
+              stroke-width="1"
+            />
+
+            <path
+              d="M82 60L88 66L100 52"
+              stroke="rgba(0,212,255,0.6)"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              fill="none"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="pf-info">
+        <div class="proj-badge">
+          <svg viewBox="0 0 24 24">
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+            />
+          </svg>
+
+          Featured Project
+        </div>
+
+        <h3 class="proj-title">FoodieHub — Modern Food Delivery</h3>
+
+        <p class="proj-desc">
+          A futuristic food delivery platform with smooth animations, glowing UI,
+          responsive layouts, animated cart system, and immersive modern design.
+          Built with focus on user experience and performance.
+        </p>
+
+        <div class="proj-tags">
+          <span class="ptag">HTML</span>
+          <span class="ptag">CSS</span>
+          <span class="ptag">JavaScript</span>
+          <span class="ptag">React</span>
+          <span class="ptag">Animations</span>
+        </div>
+
+        <div class="proj-links">
+          <a href="#" class="pl-link">
+            Live Demo
+
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"
+              />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </a>
+
+          <a href="#" class="pl-link">
+            GitHub
+
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT GRID -->
+    <div class="proj-grid stagger">
+
+      <!-- PROJECT 1 -->
+      <div class="pc gcard">
+        <div class="pc-visual">
+          <svg width="140" height="90" viewBox="0 0 140 90">
+            <circle
+              cx="70"
+              cy="40"
+              r="26"
+              fill="rgba(0,212,255,0.05)"
+              stroke="rgba(0,212,255,0.18)"
+              stroke-width="1"
+            />
+          </svg>
+        </div>
+
+        <div class="pc-body">
+          <div class="pc-tag">
+            <svg viewBox="0 0 24 24">
+              <rect x="5" y="2" width="14" height="20" rx="2" />
+            </svg>
+
+            Portfolio
+          </div>
+
+          <div class="pc-title">Animated Developer Portfolio</div>
+
+          <p class="pc-desc">
+            A cinematic portfolio website with glassmorphism, cursor effects,
+            parallax scrolling, smooth transitions, and futuristic UI.
+          </p>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="pc gcard">
+        <div class="pc-visual">
+          <svg width="140" height="90" viewBox="0 0 140 90">
+            <rect
+              x="20"
+              y="20"
+              width="100"
+              height="56"
+              rx="6"
+              fill="rgba(0,102,255,0.05)"
+              stroke="rgba(0,102,255,0.15)"
+              stroke-width="1"
+            />
+          </svg>
+        </div>
+
+        <div class="pc-body">
+          <div class="pc-tag">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+              />
+            </svg>
+
+            E-Commerce
+          </div>
+
+          <div class="pc-title">AuraShop — Fashion Store</div>
+
+          <p class="pc-desc">
+            A modern ecommerce platform with animated product cards, shopping
+            cart system, responsive UI, and smooth checkout experience.
+          </p>
+        </div>
+      </div>
+
+      <!-- PROJECT 3 -->
+      <div class="pc gcard">
+        <div class="pc-visual">
+          <svg width="140" height="90" viewBox="0 0 140 90">
+            <polygon
+              points="70,14 96,46 84,74 56,74 44,46"
+              fill="rgba(124,58,237,0.06)"
+              stroke="rgba(124,58,237,0.2)"
+              stroke-width="1"
+            />
+          </svg>
+        </div>
+
+        <div class="pc-body">
+          <div class="pc-tag">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"
+              />
+            </svg>
+
+            Game
+          </div>
+
+          <div class="pc-title">Tic Tac Toe Game</div>
+
+          <p class="pc-desc">
+            Interactive multiplayer tic tac toe game with animated gameplay,
+            glowing effects, smooth hover transitions, and responsive design.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    <div class="divider"></div>
+
+    <!-- ═══ EXPERIENCE ═══ -->
+    <section id="experience" class="section-pad">
+  <section id="experience" class="section-pad">
+  <div class="container">
+    <div class="exp-wrap">
+
+      <div class="reveal-l">
+        <div class="s-label">
+          <span class="s-label-line"></span>
+          <span class="s-label-text">Journey</span>
+        </div>
+
+        <h2 class="s-title">My <em>Journey</em></h2>
+
+        <p class="s-sub">
+          My learning journey as a creative full-stack developer passionate
+          about building modern and animated web experiences.
+        </p>
+      </div>
+
+      <div class="timeline reveal-r">
+
+        <!-- ITEM 1 -->
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+
+          <div class="tl-date">
+            <svg viewBox="0 0 24 24">
+              <rect x="3" y="4" width="18" height="18" rx="2" />
+              <line x1="16" y1="2" x2="16" y2="6" />
+              <line x1="8" y1="2" x2="8" y2="6" />
+              <line x1="3" y1="10" x2="21" y2="10" />
+            </svg>
+
+            2025 — Present
+          </div>
+
+          <div class="tl-role">Full-Stack Developer</div>
+
+          <div class="tl-co">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+            </svg>
+
+            Freelance & Personal Projects
+          </div>
+
+          <p class="tl-desc">
+            Building modern full-stack websites, animated portfolios,
+            food delivery apps, ecommerce platforms, and interactive web
+            experiences using React and JavaScript.
+          </p>
+        </div>
+
+        <!-- ITEM 2 -->
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+
+          <div class="tl-date">
+            <svg viewBox="0 0 24 24">
+              <rect x="3" y="4" width="18" height="18" rx="2" />
+              <line x1="16" y1="2" x2="16" y2="6" />
+              <line x1="8" y1="2" x2="8" y2="6" />
+              <line x1="3" y1="10" x2="21" y2="10" />
+            </svg>
+
+            2024 — 2025
+          </div>
+
+          <div class="tl-role">Frontend Developer</div>
+
+          <div class="tl-co">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+            </svg>
+
+            Creative Web Projects
+          </div>
+
+          <p class="tl-desc">
+            Created responsive and visually stunning websites with smooth
+            animations, glassmorphism UI, parallax effects, and modern layouts.
+          </p>
+        </div>
+
+        <!-- ITEM 3 -->
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+
+          <div class="tl-date">
+            <svg viewBox="0 0 24 24">
+              <rect x="3" y="4" width="18" height="18" rx="2" />
+              <line x1="16" y1="2" x2="16" y2="6" />
+              <line x1="8" y1="2" x2="8" y2="6" />
+              <line x1="3" y1="10" x2="21" y2="10" />
+            </svg>
+
+            2023 — 2024
+          </div>
+
+          <div class="tl-role">UI/UX & Web Designer</div>
+
+          <div class="tl-co">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+            </svg>
+
+            Self Learning & Design Practice
+          </div>
+
+          <p class="tl-desc">
+            Focused on learning UI/UX principles, futuristic layouts,
+            typography, color systems, and advanced animation design for
+            premium-looking websites.
+          </p>
+        </div>
+
+        <!-- ITEM 4 -->
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+
+          <div class="tl-date">
+            <svg viewBox="0 0 24 24">
+              <rect x="3" y="4" width="18" height="18" rx="2" />
+              <line x1="16" y1="2" x2="16" y2="6" />
+              <line x1="8" y1="2" x2="8" y2="6" />
+              <line x1="3" y1="10" x2="21" y2="10" />
+            </svg>
+
+            2022 — 2023
+          </div>
+
+          <div class="tl-role">Web Development Learner</div>
+
+          <div class="tl-co">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+            </svg>
+
+            HTML • CSS • JavaScript
+          </div>
+
+          <p class="tl-desc">
+            Started web development journey by learning core frontend
+            technologies and building small interactive projects and games.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+    <div class="divider"></div>
+
+   <section id="testimonials" class="section-pad">
+  <div class="container">
+    <div
+      class="section-header"
+      style="text-align: center; margin-bottom: 3.5rem"
+    >
+      <div class="s-label reveal" style="justify-content: center">
+        <span class="s-label-line"></span>
+        <span class="s-label-text">Feedback</span>
+        <span
+          class="s-label-line"
+          style="
+            background: linear-gradient(270deg, var(--cyan), transparent);
+          "
+        ></span>
+      </div>
+
+      <h2 class="s-title reveal" style="text-align: center">
+        People <em>Feedback</em>
+      </h2>
+    </div>
+
+    <div class="testi-grid stagger">
+
+      <!-- Testimonial 1 -->
+      <div class="tc gcard">
+        <div class="tc-stars">
+          ★★★★★
+        </div>
+
+        <p class="tc-text">
+          Divyanshi created a very modern and smooth portfolio website.
+          The UI animations and responsive design looked amazing on all devices.
+        </p>
+
+        <div class="tc-author">
+          <div
+            class="tc-av"
+            style="
+              background: linear-gradient(135deg, var(--cyan), var(--blue));
+            "
+          >
+            AS
+          </div>
+
+          <div>
+            <div class="tc-name">Aman Sharma</div>
+            <div class="tc-role">Frontend Developer</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="tc gcard">
+        <div class="tc-stars">
+          ★★★★★
+        </div>
+
+        <p class="tc-text">
+          Great work on the food delivery website. Clean UI, fast performance,
+          and beautiful modern layout with smooth interactions.
+        </p>
+
+        <div class="tc-author">
+          <div
+            class="tc-av"
+            style="
+              background: linear-gradient(
+                135deg,
+                var(--purple),
+                var(--pink)
+              );
+            "
+          >
+            RK
+          </div>
+
+          <div>
+            <div class="tc-name">Riya Kapoor</div>
+            <div class="tc-role">UI Designer</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="tc gcard">
+        <div class="tc-stars">
+          ★★★★★
+        </div>
+
+        <p class="tc-text">
+          Impressive animations and modern 3D effects. The website feels premium
+          and highly interactive. Looking forward to more projects.
+        </p>
+
+        <div class="tc-author">
+          <div
+            class="tc-av"
+            style="background: linear-gradient(135deg, #0066ff, #22c55e)"
+          >
+            VP
+          </div>
+
+          <div>
+            <div class="tc-name">Vikash Patel</div>
+            <div class="tc-role">Full Stack Developer</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <div class="divider"></div>
+
+ <!-- ═══ TECH STACK ═══ -->
+<section id="techstack" class="section-pad">
+  <div class="container">
+
+    <div
+      class="section-header"
+      style="text-align: center; margin-bottom: 3rem"
+    >
+      <div class="s-label reveal" style="justify-content: center">
+        <span class="s-label-line"></span>
+        <span class="s-label-text">Toolbox</span>
+        <span
+          class="s-label-line"
+          style="
+            background: linear-gradient(270deg, var(--cyan), transparent);
+          "
+        ></span>
+      </div>
+
+      <h2 class="s-title reveal" style="text-align: center">
+        Tech <em>Stack</em>
+      </h2>
+
+      <p class="s-sub reveal" style="text-align:center;">
+        Technologies and tools I use to build modern web experiences.
+      </p>
+    </div>
+
+    <div class="tech-grid stagger">
+
+      <div class="tech-item">
+        <div class="tech-name">HTML5</div>
+      </div>
+
+      <div class="tech-item">
+        <div class="tech-name">CSS3</div>
+      </div>
+
+      <div class="tech-item">
+        <div class="tech-name">JavaScript</div>
+      </div>
+
+      <div class="tech-item">
+        <div class="tech-name">React.js</div>
+      </div>
+
+      <div class="tech-item">
+        <div class="tech-name">Tailwind CSS</div>
+      </div>
+
+      <div class="tech-item">
+        <div class="tech-name">Node.js</div>
+      </div>
+
+      <div class="tech-item">
+        <div class="tech-name">Express.js</div>
+      </div>
+
+      <div class="tech-item">
+        <div class="tech-name">MongoDB</div>
+      </div>
+
+      <div class="tech-item">
+        <div class="tech-name">Git & GitHub</div>
+      </div>
+
+      <div class="tech-item">
+        <div class="tech-name">Three.js</div>
+      </div>
+
+      <div class="tech-item">
+        <div class="tech-name">Framer Motion</div>
+      </div>
+
+      <div class="tech-item">
+        <div class="tech-name">Responsive Design</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <div class="divider"></div>
+
+    <!-- ═══ ACHIEVEMENTS ═══ -->
+<section id="achievements" class="section-pad">
+  <div class="container">
+
+    <div
+      class="section-header"
+      style="text-align: center; margin-bottom: 3rem"
+    >
+      <div class="s-label reveal" style="justify-content: center">
+        <span class="s-label-line"></span>
+        <span class="s-label-text">Milestones</span>
+        <span
+          class="s-label-line"
+          style="
+            background: linear-gradient(270deg, var(--cyan), transparent);
+          "
+        ></span>
+      </div>
+
+      <h2 class="s-title reveal" style="text-align: center">
+        My <em>Achievements</em>
+      </h2>
+    </div>
+
+    <div class="ach-grid stagger">
+
+      <!-- Achievement 1 -->
+      <div class="ach-card gcard">
+        <div class="ach-icon">
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="8" r="6" />
+            <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11" />
+          </svg>
+        </div>
+
+        <div class="ach-num">5+</div>
+
+        <div class="ach-label">
+          Modern frontend and full stack projects completed including portfolio,
+          food delivery, ecommerce, and interactive UI projects.
+        </div>
+      </div>
+
+      <!-- Achievement 2 -->
+      <div class="ach-card gcard">
+        <div class="ach-icon">
+          <svg viewBox="0 0 24 24">
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+            />
+          </svg>
+        </div>
+
+        <div class="ach-num">100%</div>
+
+        <div class="ach-label">
+          Responsive and mobile-friendly websites built using modern UI/UX and
+          animation techniques.
+        </div>
+      </div>
+
+      <!-- Achievement 3 -->
+      <div class="ach-card gcard">
+        <div class="ach-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
+          </svg>
+        </div>
+
+        <div class="ach-num">3D</div>
+
+        <div class="ach-label">
+          Created modern animated interfaces with Three.js, glassmorphism, and
+          smooth scroll interactions.
+        </div>
+      </div>
+
+      <!-- Achievement 4 -->
+      <div class="ach-card gcard">
+        <div class="ach-icon">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"
+            />
+          </svg>
+        </div>
+
+        <div class="ach-num">React</div>
+
+        <div class="ach-label">
+          Developed dynamic frontend applications using React, APIs, reusable
+          components, and modern JavaScript.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <div class="divider"></div>
+<section id="contact" class="section-pad">
+  <div class="container">
+    <div class="section-header" style="margin-bottom: 3.5rem">
+      <div class="s-label reveal">
+        <span class="s-label-line"></span>
+        <span class="s-label-text">Get In Touch</span>
+      </div>
+
+      <h2 class="s-title reveal">
+        Let's Build Something<br /><em>Amazing Together</em>
+      </h2>
+
+      <p class="s-sub reveal">
+        Have an exciting project, startup idea, or collaboration in mind?
+        I'm always open to creating modern, animated, and high-performance web experiences.
+      </p>
+    </div>
+
+    <div class="contact-wrap">
+      <div class="contact-info reveal-l">
+
+        <div class="ci-item">
+          <div class="ci-icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+              />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </div>
+
+          <div>
+            <div class="ci-lbl">Email</div>
+            <div class="ci-val">divyanshi.dev@gmail.com</div>
+          </div>
+        </div>
+
+        <div class="ci-item">
+          <div class="ci-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+          </div>
+
+          <div>
+            <div class="ci-lbl">Location</div>
+            <div class="ci-val">India</div>
+          </div>
+        </div>
+
+        <div class="ci-item">
+          <div class="ci-icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+          </div>
+
+          <div>
+            <div class="ci-lbl">Response Time</div>
+            <div class="ci-val">Usually within few hours</div>
+          </div>
+        </div>
+
+        <div class="ci-item">
+          <div class="ci-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+          </div>
+
+          <div>
+            <div class="ci-lbl">Availability</div>
+            <div class="ci-val">Open for freelance & internships</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="cf gcard reveal-r">
+
+        <div class="cf-row">
+          <div class="fg">
+            <label>Name</label>
+            <input type="text" placeholder="Your full name" />
+          </div>
+
+          <div class="fg">
+            <label>Email</label>
+            <input type="email" placeholder="your@email.com" />
+          </div>
+        </div>
+
+        <div class="fg">
+          <label>Subject</label>
+          <input
+            type="text"
+            placeholder="Project / Collaboration"
+          />
+        </div>
+
+        <div class="fg">
+          <label>Message</label>
+          <textarea
+            placeholder="Tell me about your idea, project, or website..."
+          ></textarea>
+        </div>
+
+        <button
+          class="btn-cta"
+          id="sendBtn"
+          style="cursor: pointer; align-self: flex-start"
+        >
+          <svg viewBox="0 0 24 24">
+            <line x1="22" y1="2" x2="11" y2="13" />
+            <polygon points="22 2 15 22 11 13 2 9 22 2" />
+          </svg>
+
+          Send Message
+        </button>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-inner">
+
+    <div class="foot-top">
+
+      <span class="foot-logo">Divyanshi.singh</span>
+
+      <div class="foot-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div style="display: flex; gap: 0.7rem">
+
+        <!-- GitHub -->
+        <a
+          href="https://github.com/"
+          target="_blank"
+          class="soc-btn"
+          aria-label="GitHub"
+          style="width: 34px; height: 34px; border-radius: 9px"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            style="width: 15px; height: 15px"
+          >
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"
+            />
+          </svg>
+        </a>
+
+        <!-- LinkedIn -->
+        <a
+          href="https://linkedin.com/"
+          target="_blank"
+          class="soc-btn"
+          aria-label="LinkedIn"
+          style="width: 34px; height: 34px; border-radius: 9px"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            style="width: 15px; height: 15px"
+          >
+            <path
+              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+            />
+            <circle cx="4" cy="4" r="2" />
+          </svg>
+        </a>
+
+        <!-- Instagram -->
+        <a
+          href="https://instagram.com/"
+          target="_blank"
+          class="soc-btn"
+          aria-label="Instagram"
+          style="width: 34px; height: 34px; border-radius: 9px"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            style="width: 15px; height: 15px"
+          >
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          </svg>
+        </a>
+
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+
+      <p class="foot-copy">
+        &copy; 2026 Divyanshi Singh. All rights reserved.
+      </p>
+
+      <p class="foot-copy">
+        Designed & Developed with
+        <span style="color: var(--pink)">&#9829;</span>
+        using HTML, CSS, JavaScript & React
+      </p>
+
+    </div>
+  </div>
+</footer>
+
+<!-- Floating Dock -->
+<div class="float-dock">
+
+  <a href="#hero" class="fd" title="Top">
+    <svg viewBox="0 0 24 24">
+      <path d="M18 15l-6-6-6 6" />
+    </svg>
+  </a>
+
+  <a href="#projects" class="fd" title="Projects">
+    <svg viewBox="0 0 24 24">
+      <rect x="2" y="3" width="20" height="14" rx="2" />
+      <line x1="8" y1="21" x2="16" y2="21" />
+      <line x1="12" y1="17" x2="12" y2="21" />
+    </svg>
+  </a>
+
+  <a href="#contact" class="fd" title="Contact">
+    <svg viewBox="0 0 24 24">
+      <path
+        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+      />
+      <polyline points="22,6 12,13 2,6" />
+    </svg>
+  </a>
+
+</div>
+
+<!-- Music Button -->
+<button class="music-btn" id="musicBtn" aria-label="Music">
+  <svg id="musicIcon" viewBox="0 0 24 24">
+    <path d="M9 18V5l12-2v13" />
+    <circle cx="6" cy="18" r="3" />
+    <circle cx="18" cy="16" r="3" />
+  </svg>
+</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
